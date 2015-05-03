@@ -1,0 +1,19 @@
+{
+  "uuid": "a0e75981-6451-4048-a41d-aa43486f3f3f",
+  "shortName": "microbench",
+  "longName": "microbench",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
