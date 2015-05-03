@@ -22,8 +22,8 @@ int main(void) {
 		tmtaken += (ms2 - ms1);
 	}
 	
-	uint64_t cyc = tmtaken * 64000000ULL / reps;
-	printf("%lu reps in %lu ms (%lu.%03lu cycles / rep)\n", reps, tmtaken, (uint32_t)(cyc / 1000), (uint32_t)(cyc % 1000));
+	uint64_t cyc = tmtaken * 64200000ULL / reps;
+	printf("%lu reps in %lu ms (%lu.%03lu cycles / rep)", reps, tmtaken, (uint32_t)(cyc / 1000), (uint32_t)(cyc % 1000));
 	
 	app_event_loop();
 }
